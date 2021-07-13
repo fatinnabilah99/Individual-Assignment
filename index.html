@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<title>My Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: blue;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-blue">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+<img src="images/image-fatin.jpg" height="300px"> 
+  <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-blue">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#biodata" class="w3-bar-item w3-button w3-padding-large w3-blue">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>BIODATA</p>
+  </a>
+  <a href="#experience" class="w3-bar-item w3-button w3-padding-large w3-blue">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>EXPERIENCE</p>
+  </a>
+  <a href="#education" class="w3-bar-item w3-button w3-padding-large w3-blue">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>EDUCATION</p>
+  </a>
+  <a href="#family" class="w3-bar-item w3-button w3-padding-large w3-blue">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>FAMILY</p>
+  </a>
+  <a href="#gallery" class="w3-bar-item w3-button w3-padding-large w3-blue">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>GALLERY</p>
+  </a>
+   <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-blue">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#biodata" class="w3-bar-item w3-button" style="width:25% !important">BIODATA</a>
+    <a href="#experience" class="w3-bar-item w3-button" style="width:25% !important">EXPERIENCE</a>
+    <a href="#education" class="w3-bar-item w3-button" style="width:25% !important">EDUCATION</a>
+    <a href="#family" class="w3-bar-item w3-button" style="width:25% !important">FAMILY</a>
+    <a href="#gallery" class="w3-bar-item w3-button" style="width:25% !important">GALLERY</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-blue" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">Hello! Welcome</span> To My Website</h1>
+    <p>Fatin Nabilah</p>
+<!-- Image -->
+    <p><img src="image-fatin.jpg" height="300px" class="image-fatin" width="300" height="300" /></p>
+
+    <p>Title: My Website  
+    <p>Name: Fatin Nabilah Binti Muhammad
+    <p>Student ID: 2020954799
+    <p>Group: D2BA2424C
+    <p>Course Code: IMS456
+    <p>Course Name: Basic Web Design And Content Management
+    <p>Program Code : BA242
+    <p>Faculty: Faculty of Business Administration, UiTM Kota Bharu
+    <p>Submission Date: Week 12
+    <p>Lecturer: Mr. Faizal Haini Fadzil
+    <p>Published URL: https://github.com
+    </header>
+
+  
+
+  <!-- Biodata Section -->
+  <div class="w3-content w3-justify w3-text-white w3-padding-64 w3-blue" id="biodata">
+    <h2 class="w3-text-white">Biodata</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Name: Fatin Nabilah Binti Muhammad
+    <p>Age: 22
+    <p>I/C No.: 990120-03-5896
+    <p>Date of Birth: 20 January 1999
+    <p>Place of Birth: Kota Bharu Medical Center (KBMC)
+    <p>Gender: Female
+    <p>Religion: Islam
+    <p>Race: Malay
+    <p>Status: Single
+    <p>Nationality: Malaysia
+    <p>Address: Lot 1164, Laluan Mustaqim, Kampung Huda, Jalan Sultan Yahya Petra, 15200, Kota Bharu, Kelantan
+    <p>Current Address: Lot 1164, Laluan Mustaqim, Kampung Huda, Jalan Sultan Yahya Petra, 15200, Kota Bharu, Kelantan
+    <p>Phone No.: +6014-5498364
+    <p>E-Mail Address: fatinnabilahhh99@gmail.com
+      
+    </div>
+  <!-- End Biodata Section -->
+  
+  
+  <!-- Experience Section -->
+  <div class="w3-content w3-justify w3-text-white w3-padding-64" id="experience">
+    <h2 class="w3-text-white">Experience</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Administrative Clerk Kota Bharu Mall (KBMALL): 
+    <p>After graduating diploma, I worked as an administrative clerk at KBMALL in Kota Bharu, Kelantan while waiting for degree intake in February 2020. My job scope is to key in employees data and managing the administrative
+    <p>Waitress: 
+    <p>In 2020, I worked as a part timer for Jiwa Kopi & Bingsu
+    
+    </div>
+  <!-- End Experience Section -->
+
+  <!-- Education Section -->
+  <div class="w3-content w3-justify w3-text-white w3-padding-64" id="education">
+    <h2 class="w3-text-white">Education</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Highest Education
+    <p>Institution:
+    <p>Universiti Teknologi Mara (UiTM) Kota Bharu, Kelantan (March 2020-Current)
+    <p>Level:
+    <p>Bachelor in Business Administration (Hons) Finance
+    <p>CGPA: 3.72
+    <p>2nd Highest Education
+    <p>Institution: 
+    <p>Universiti Teknologi Mara (UiTM) Jengka, Pahang (June 2017-December 2019)
+    <p>Level: 
+    <p>Diploma in Accountancy
+    <p>CGPA: 2.79
+    <p>3rd Highest Education
+    <p>Institution: 
+    <p>Sekolah Menengah Kebangsaan Sultan Ismail, Kota Bharu, Kelantan (2012-2016)
+    <p>Level: 
+    <p>Sijil Pelajaran Malaysia (SPM)
+    <p>Result: 2A's subject (Account & Science)
+
+    </div>
+  <!-- End Education Section -->
+
+      <!-- Family Section -->
+  <div class="w3-content w3-justify w3-text-white w3-padding-64" id="family">
+    <h2 class="w3-text-white">Family</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Father
+    <p>Name: Muhammad Bin Ibrahim
+    <p>Age: 61
+    <p>Date of Birth: 06 September 1960
+    <p>Mother
+    <p>Name: Maheran Binti Zakaria
+    <p>Age: 57
+    <p>Date of Birth: 15 September 1964 
+    <p>I have 4 siblings including me
+    <p>1st Sibling
+    <p>Name: Nurul Nadia Binti Muhammad
+    <p>Age: 34
+    <p>Date of Birth: 10 April 1987
+    <p>2nd Sibling
+    <p>Name: Nurul Ezzati Binti Muhammad
+    <p>Age: 33
+    <p>Date of Birth: 24 May 1988
+    <p>3rd Sibling
+    <p>Name: Zakwan Arif Bin Muhammad
+    <p>Age: 27
+    <p>Date of Birth: 31 December 1994
+
+      </p>
+  <!-- End Family Section -->
+  </div>
+  
+  <!-- Gallery Section -->
+  <div  class="w3-content w3-justify w3-text-white w3-padding-64" id="gallery">
+    <h2 class="w3-text-white">Gallery</h2>
+    <hr style="width:200px" class="opacity">
+    <img src="images/image-fatin.jpg" height="300px">
+    
+    
+    </div>
+  <!-- End Gallery Section -->
+
+  <!-- Contact Section -->
+  <div  class="w3-content w3-justify w3-text-white w3-padding-64" id="contact">
+    <h2 class="w3-text-white">Contact</h2>
+    <hr style="width:200px" class="opacity">
+    <p>For any enquiries, please contact me https://wa.link/6k4t4s or +6014-5498364
+    
+    </div>
+  <!-- End Contact Section -->
+
+  <!-- Layout Section -->
+  <div>  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.236726079894!2d102.26780911399929!3d6.098786329648665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31b6b009a77f9edd%3A0xdb20664c3ae13377!2s1164%2C%20Lorong%20Huda%2C%20Kampung%20Huda%2C%2015200%20Kota%20Bharu%2C%20Kelantan!5e0!3m2!1sen!2smy!4v1624350714220!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+  </div>
+
+ 
+
+  <!-- End Layout Section -->
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
